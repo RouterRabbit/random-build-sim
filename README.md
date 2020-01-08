@@ -3,9 +3,11 @@
 
 This is a PHP generator for random contests and competitions between friends, or adding a challenge to your own builds.
 
-URL Options: ?players=#&mods=# 
-Players = Amount of players in this game, can be any number.
-Mods = How many modifiers are given to the players.
+**URL Options**: ?players=#&mods=# 
+
+**Players** = Amount of players in this game, can be any number.
+**Mods** = How many modifiers are given to the players.
+
 
 Case size, Max RAM, Max VRAM, and Modifiers all have their own arrays so you can add, remove, change options, or change likelihood as you see fit. 
 
