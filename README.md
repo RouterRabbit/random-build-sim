@@ -1,5 +1,5 @@
-# pc-building-sim-1
-# Made by JackRabbott and the team at RouterRabbit.
+## The Random PC Build Generator for PC Building Simulator AKA pc-building-sim-1
+### Made by JackRabbott and the team at RouterRabbit.
 
 This is a PHP generator for random contests and competitions between friends, or adding a challenge to your own builds.
 
