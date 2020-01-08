@@ -16,4 +16,4 @@ Case size, Max RAM, Max VRAM, and Modifiers all have their own arrays so you can
 
 It is recommended to have a timer app of some sort open to keep track of time and establishing a time-limit beforehand but how you play is up to you.
 
-This webpage is being released GNU3, you may edit, redistribute, or modify this content in any way you see fit except for closed-source use. 
+This webpage is being released GPL3, you may edit, redistribute, or modify this content in any way you see fit except for closed-source use. 
