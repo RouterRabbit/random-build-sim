@@ -3,7 +3,7 @@
 
 This is a PHP generator for random contests and competitions between friends, or adding a challenge to your own builds.
 
-**URL Options**: ?players=#&mods=# 
+**URL Options**: ?players=#&mods=# *URL Options are optional, and either one, both, or neither can be set and the game will adjust accordingly.*
 
 **Players** = Amount of players in this game, can be any number.
 **Mods** = How many modifiers are given to the players.
