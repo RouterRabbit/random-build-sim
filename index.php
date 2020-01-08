@@ -29,8 +29,7 @@
 					<span class="label-input100">Case Size</span> 
 					<?php 
 						$int= mt_rand(1,7);
-						$arrX = array("Micro-ATX","Mid-ATX","Full-ATX","Super-ATX","Cube","Triangle","Any Case");
-						$randIndex = array_rand($arrX);
+						$arrX = array("Micro-ATX","Mid-ATX","Full-ATX","Super-ATX","Cube","Tristallar","Quadstellar","Any Case");$randIndex = array_rand($arrX);
 						echo $arrX[$randIndex];
 					?>
 					<span class="focus-input100"></span>
