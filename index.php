@@ -109,6 +109,9 @@
 						"Player $random must use a Z390 chipset",
 						"Player $random must use all RGB parts",
 						"Player $random cannot include any RGB",
+						"Player $random may only use cards under 6GB VRAM",
+						"Player $random may only use cards under 4GB VRAM",
+						"Player $random may only use cards under 3GB VRAM",
 						"All players must use Intel Pentium CPUs"
 						);
 						$randIndex = array_rand($arrX);
