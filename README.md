@@ -3,6 +3,8 @@
 
 #### This is a PHP-based web generator for random competitions between friends, or finding challenging builds for yourself.
 
+Live Demo: https://random.routerrabbit.com/
+
 
 
 
