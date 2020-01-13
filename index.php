@@ -20,7 +20,7 @@
 		<div class="wrap-contact100">
 			<form class="contact100-form" action="#">
 				<span class="contact100-form-title">
-					<img src="https://i.imgur.com/xy3O9R7.jpg" alt="Colonel Rudy vs JackRabbott PC Build-off" width="100%">
+					<img src="https://i.imgur.com/Yq6EX4X.png" alt="Colonel Rudy vs JackRabbott PC Build-off" width="100%">
 					<span class="focus-input100"></span>
 				</span>
 				
