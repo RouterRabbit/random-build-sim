@@ -1,3 +1,4 @@
+![ROUTER RABBIT2.png](https://i.imgur.com/Do2pmxv.png)
 ### The Random PC Build Generator for PC Building Simulator AKA pc-building-sim-1
 #### Made by JackRabbott and the team at RouterRabbit.
 
