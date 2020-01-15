@@ -29,7 +29,7 @@ Case size, Max RAM, Max VRAM, and Modifiers all have their own arrays so you can
 
 
 
-It is recommended to have a timer app of some sort open to keep track of time and establishing a time-limit beforehand but how you play is up to you. We've found that 15-20 minutes is good for anyone who is enough of an enthusiast to have the game.
+It is recommended to have a timer app of some sort open to establish a time-limit beforehand but how you play is up to you. We've found that 15-20 minutes is good for anyone who is enough of an enthusiast to have the game.
 
 
 
