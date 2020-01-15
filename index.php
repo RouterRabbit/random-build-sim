@@ -1,4 +1,31 @@
 <!DOCTYPE html>
+<?php
+$budget = $_GET['budget'] ?? '';;
+$players = $_GET['players'] ?? '';;
+$mods = $_GET['mods'] ?? '';;
+
+if (empty($mods) && !empty($players))
+{
+	$wildcards = (intval($players) / 2) - 1;
+}
+if (!empty($mods) && !empty($players))
+{
+	$wildcards = $mods;
+}
+else
+{
+	$players = 2;
+	$wildcards = 1;
+}
+if(!empty($budget))
+{
+	$budgets = $players;
+}
+else
+{
+	$budgets = 1;
+}
+?>
 <html lang="en">
 <head>
 	<title>Random PC Build Generator</title>
@@ -20,7 +47,7 @@
 		<div class="wrap-contact100">
 			<form class="contact100-form" action="#">
 				<span class="contact100-form-title">
-					<img src="https://i.imgur.com/Yq6EX4X.png" alt="Colonel Rudy vs JackRabbott PC Build-off" width="100%">
+					<img src="https://camo.githubusercontent.com/ee7af20c0bc1c11605b5d8c30667a53fbf68ca98/68747470733a2f2f692e696d6775722e636f6d2f597136455834582e706e67" alt="Colonel Rudy vs JackRabbott PC Build-off" width="100%">
 					<span class="focus-input100"></span>
 				</span>
 				
@@ -29,7 +56,8 @@
 					<span class="label-input100">Case Size</span> 
 					<?php 
 						$int= mt_rand(1,7);
-						$arrX = array("Micro-ATX","Mid-ATX","Full-ATX","Super-ATX","Cube","Tristallar","Quadstellar","Any Case");$randIndex = array_rand($arrX);
+						$arrX = array("Micro-ATX","Mid-ATX","Full-ATX","Super-ATX","Cube","Tristellar","Quadstellar","Any Case");
+						$randIndex = array_rand($arrX);
 						echo $arrX[$randIndex];
 					?>
 					<span class="focus-input100"></span>
@@ -61,23 +89,29 @@
 				
 				<div class="wrap-input100">
 				
-					<span class="label-input100">Modifier(s)</span> 
+					<span class="label-input100">Budget</span> 
 					<?php 
-						$players = $_GET['players'] ?? '';;
-						$mods = $_GET['mods'] ?? '';;
-						if (empty($mods) && !empty($players))
+						if($budgets == 1)
 						{
-							$wildcards = (intval($players) / 2) - 1;
-						}
-						if (!empty($mods) && !empty($players))
-						{
-							$wildcards = $mods;
+							$budget = mt_rand(1250,8500);
+							echo "$" . $budget;
 						}
 						else
 						{
-							$players = 2;
-							$wildcards = 1;
+							for ($j=0; $j<$budgets; $j++) {
+							$budget = mt_rand(1250,8500);
+							echo "<br/>Player " . ($j +1 ) . ": $" . $budget;
+							}
 						}
+					?>
+					<span class="focus-input100"></span>
+				</div>
+				
+				<div class="wrap-input100">
+				
+					<span class="label-input100">Modifier(s)</span> 
+					<?php 
+						
 						for ($i=0; $i<$wildcards; $i++) {
 						$random = mt_rand(1,$players);
 						$arrX = array(
@@ -113,17 +147,16 @@
 						"Player $random may only use cards under 3GB VRAM",
 						"All players must use Intel Pentium CPUs"
 						);
-						$randIndex = array_rand($arrX);
 						
+						$randIndex = array_rand($arrX);
 						echo "<br />" . ($i + 1) . ": ";
 						echo $arrX[$randIndex];
-						
 						}
 ?>
 					<br />
 					<span class="label-input100">
 					<br />
-					If previous conditions do not permit modifier, modifier applies to both players. In the event modifier still cannot be applied, neither player has that modifier.</span> 
+					Modifiers may be ignored for part of a build if previous conditions do not allow that modifier.</span> 
 					<span class="focus-input100"></span>
 				</div>
 
