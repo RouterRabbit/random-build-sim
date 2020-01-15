@@ -4,7 +4,7 @@
 
 #### This is a PHP-based web generator for random competitions between friends, or finding challenging builds for yourself.
 
-Live Demo: http://random.routerrabbit.com/
+:desktop_computer: Live Demo: http://random.routerrabbit.com/
 
 
 
@@ -34,7 +34,7 @@ It is recommended to have a timer app of some sort open to establish a time-limi
 
 
 ### Here it is in action!
-![xnHJRPF3Kv.png](https://i.imgur.com/odUPr89.png)
+![xnHJRPF3Kv.png](https://i.imgur.com/PEbssTn.png)
 
 
 
