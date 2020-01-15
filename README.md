@@ -9,14 +9,17 @@ Live Demo: http://random.routerrabbit.com/
 
 
 
-**URL Options**: ?players=#&mods=# 
+**URL Options**: ?players=#&mods=#&budget=#
 ######  URL Options are optional, and either one, both, or neither can be set and the game will adjust accordingly.
 **Players** = Amount of players in this game, can be any number.
 **Mods** = How many modifiers are given to the players.
+**Budget** = If this URL option is passed a value, all players will recieve a unique budget. If you do not use this URL option, all players will have the same budget.
 
 
 
 Case size, Max RAM, Max VRAM, and Modifiers all have their own arrays so you can add, remove, change options, or change likelihood as you see fit. 
+
+Update 1/14/20: Added budget(s). You can have one budget for the whole game or use the budget URL option to generate a random budget between $1,500 and $8,500.
 
 
 
@@ -24,7 +27,7 @@ Case size, Max RAM, Max VRAM, and Modifiers all have their own arrays so you can
 
 
 
-It is recommended to have a timer app of some sort open to keep track of time and establishing a time-limit beforehand but how you play is up to you.
+It is recommended to have a timer app of some sort open to keep track of time and establishing a time-limit beforehand but how you play is up to you. We've found that 15-20 minutes is good for anyone who is enough of an enthusiast to have the game.
 
 
 
