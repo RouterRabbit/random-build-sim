@@ -21,7 +21,7 @@ Live Demo: http://random.routerrabbit.com/
 
 Case size, Max RAM, Max VRAM, and Modifiers all have their own arrays so you can add, remove, change options, or change likelihood as you see fit. 
 
-Update 1/14/20: Added budget(s). You can have one budget for the whole game or use the budget URL option to generate a random budget between $1,500 and $8,500.
+**Update 1/14/20**: Added budget(s). You can have one budget for the whole game or use the budget URL option to generate a random budget between $1,500 and $8,500.
 
 
 
