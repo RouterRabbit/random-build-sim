@@ -12,7 +12,9 @@ Live Demo: http://random.routerrabbit.com/
 **URL Options**: ?players=#&mods=#&budget=#
 ######  URL Options are optional, and either one, both, or neither can be set and the game will adjust accordingly.
 **Players** = Amount of players in this game, can be any number.
+
 **Mods** = How many modifiers are given to the players.
+
 **Budget** = If this URL option is passed a value, all players will recieve a unique budget. If you do not use this URL option, all players will have the same budget.
 
 
