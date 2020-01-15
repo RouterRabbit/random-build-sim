@@ -47,7 +47,7 @@ else
 		<div class="wrap-contact100">
 			<form class="contact100-form" action="#">
 				<span class="contact100-form-title">
-					<img src="https://camo.githubusercontent.com/ee7af20c0bc1c11605b5d8c30667a53fbf68ca98/68747470733a2f2f692e696d6775722e636f6d2f597136455834582e706e67" alt="Colonel Rudy vs JackRabbott PC Build-off" width="100%">
+					<img src="https://i.imgur.com/Yq6EX4X.png" alt="Colonel Rudy vs JackRabbott PC Build-off" width="40%">
 					<span class="focus-input100"></span>
 				</span>
 				
