@@ -4,11 +4,6 @@
 
 #### This is a PHP-based web generator for random competitions between friends, or finding challenging builds for yourself.
 
-Live Demo: http://random.routerrabbit.com/
-
-
-
-
 **URL Options**: ?players=#&mods=#&budget=#
 ######  URL Options are optional, and either one, both, or neither can be set and the game will adjust accordingly.
 **Players** = Amount of players in this game, can be any number.
@@ -17,8 +12,14 @@ Live Demo: http://random.routerrabbit.com/
 
 **Budget** = If this URL option is passed a value, all players will recieve a unique budget. If you do not use this URL option, all players will have the same budget.
 
-
-
+**Demo Links**
+Single-player game: https://random.routerrabbit.com/?players=1
+Single-player game with 2 modifiers: https://random.routerrabbit.com/?players=1&mods=2
+Two-player game: https://random.routerrabbit.com/?players=2
+Two-player game with 2 modifiers: https://random.routerrabbit.com/?players=2&mods=2
+Two-player game with 2 modifiers and a budget: https://random.routerrabbit.com/?players=2&mods=2&budget=1
+All other possibilities can be made using those URL options. No URL options will default to a two-player game with one modifier and one budget.
+    
 Case size, Max RAM, Max VRAM, and Modifiers all have their own arrays so you can add, remove, change options, or change likelihood as you see fit. 
 
 **Update 1/14/20**: Added budget(s). You can have one budget for the whole game or use the budget URL option to generate a random budget between $1,500 and $8,500.
