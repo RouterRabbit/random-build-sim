@@ -1,3 +1,5 @@
+# Archived as of Jan 24th, 2024.
+
 ![ROUTERRABBIT LOGO](https://i.imgur.com/Yq6EX4X.png)
 ### The Random PC Build Generator for PC Building Simulator (random-build-sim)
 #### Made by JackRabbott and the team at RouterRabbit.
